@@ -68,7 +68,7 @@ React Frontend  ──>  Express API  ──>  Redis Queue  ──>  Python Work
 ### 1. Clone and Configure
 
 ```bash
-git clone https://github.com/yourusername/ai-task-platform.git
+git clone https://github.com/kanithra/ai-task-platform.git
 cd ai-task-platform
 ```
 
