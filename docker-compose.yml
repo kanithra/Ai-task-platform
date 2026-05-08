@@ -47,14 +47,13 @@ services:
     environment:
       REDIS_HOST: redis
       REDIS_PORT: 6379
-      MONGODB_URI: mongodb+srv://Kanithra:DE3ofTwedqoFeUhc@cluster0.hixdko8.mongodb.net/ai-task-platform?appName=Cluster0
+      MONGODB_URI: mongodb+srv://@cluster0.hixdko8.mongodb.net/?appName=Cluster0
       LOG_LEVEL: INFO
     depends_on:
       redis:
         condition: service_healthy
     networks:
       - ai-task-net
-
   frontend:
     build:
       context: ./frontend
