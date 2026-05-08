@@ -27,7 +27,7 @@ services:
     environment:
       NODE_ENV: development
       PORT: 5000
-      MONGODB_URI: mongodb+srv://Kanithra:DE3ofTwedqoFeUhc@cluster0.hixdko8.mongodb.net/ai-task-platform?appName=Cluster0
+      MONGODB_URI: mongodb+srv://<userName>:<password>@cluster0.hixdko8.mongodb.net/<db.name>?appName=Cluster0
       REDIS_HOST: redis
       REDIS_PORT: 6379
       JWT_SECRET: dev-jwt-secret-change-in-production
